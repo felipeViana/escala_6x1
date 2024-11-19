@@ -44,6 +44,8 @@ end
 
 -- método push como o de uma pilha normal,
 -- adiciona uma nova cena ao topo da pilha
+-- o segundo argumento (option) serve para
+-- passar dados para a cena
 function sceneManager.pushScene(s, option)
   s = s or error("pushScene requires a scene")
 
