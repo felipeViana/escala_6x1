@@ -76,6 +76,7 @@ function sceneManager.getCurrentScene()
 end
 
 function sceneManager.draw()
+  -- draw all screens on stack
   for i = 1, #screenStack do
     screenStack[i].draw()
   end
