@@ -25,6 +25,7 @@ local button3
 local buttonsList = {}
 
 local function playGame()
+  music:stop()
   sceneManager.changeScene(require "src/scenes/mainGame")
 end
 
